@@ -1,0 +1,18 @@
+{
+  "name": "TML Search",
+  "description": "An omnibox keywork to go faster to a specific JIRA Issue page",
+  "version": "1.0",
+  "manifest_version": 2,
+  "omnibox": {
+    "keyword": "tml"
+  },
+  "icons": {
+    "16": "assets/images/jira_icon.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "assets/js/background.js"
+    ]
+  }
+}
